@@ -1,0 +1,32 @@
+<head>
+<title>Javascript</title>
+	
+	<script type = "text/javascript">
+		var num1 = 20;
+		var num2 = 05;
+		var total = Number(num1) + Number(num2);
+			alert (total);
+			
+			var num3 = 2;
+			var num4 = 4;
+			var total1 = Number(num3) * Number(num4);
+			alert (total1);
+			
+			var num5 = 2;
+			var num6 = 7;
+			var num7 = 5
+			var total2 = (num5) + Number(num6);
+			alert (total2);
+			
+			let one = 1;
+			alert(one);
+			let two = 2;
+			alert(two);
+			let numTotal = (one + two)
+			alert (numTotal)
+			
+			
+	</script>
+	
+	</head>
+
