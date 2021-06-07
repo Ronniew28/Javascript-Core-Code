@@ -1,0 +1,10 @@
+<head>
+<title>Javascript</title>
+	
+	<script type = "text/javascript">
+		/* const CANNOT be changed */
+		const num = 7;
+		alert (num);
+		
+</script>
+</head>	
