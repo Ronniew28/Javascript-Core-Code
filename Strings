@@ -1,0 +1,18 @@
+<head>
+<title>Javascript</title>
+	
+	<script type = "text/javascript">
+		let quote = "Hello World";
+		alert (quote);
+		
+		let quote1 = 'Using single quotes';
+		alert(quote1);
+		
+		let num = 25; /*this is NOT a string */
+		let num1 = "25" 
+		
+		quote2 = "This is a 'big' quote";
+		alert (quote2);
+	
+</script>
+</head>	
