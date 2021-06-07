@@ -1,0 +1,25 @@
+<head>
+<title>Javascript</title>
+	
+	<script type = "text/javascript">
+	let score = 0;
+	alert (score);
+	
+	score +=5;
+	alert (score);
+	
+	let lives = 7;
+	lives--;
+	alert(lives); /*returns 6 */
+	lives--;
+	alert(lives); /*returns 5 */
+	
+	/*increment by one */
+	num = 0;
+	num ++;
+	alert(num);
+	num ++;
+	alert(num);
+	
+</script>
+</head>	
