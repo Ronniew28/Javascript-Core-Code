@@ -1,0 +1,20 @@
+<head>
+<title>Javascript Index</title>
+	
+	<script type = "text/javascript">
+		let test= "Hello";
+		alert (test);
+		
+		let test1 = test[4];
+		alert (test1); /*Output o*/
+		
+		let num = "Twenty";
+		alert (num.length); /*Output 6*/
+		
+		let quote1 = "Hello";
+		let quote2 = "World";
+		let quote3 = quote1 + " " + quote2;
+		alert (quote3);
+	
+</script>
+</head>	
