@@ -1,0 +1,21 @@
+head>
+<title>Javascript String Methods with Arguments</title>
+	
+	<script type = "text/javascript">
+		let quote = 'dogcatantbee';
+		alert (quote.indexOf ('ant'));	//6
+		alert (quote.indexOf ('bee')); //9
+		alert (quote.indexOf ('x')); //-1
+		
+		let quote1 = 'This is a boring quote';
+		alert (quote1.slice(7));
+		alert (quote1.slice(5,9));
+		
+		var str = "Visit Microsoft!";
+		var res = str.replace("Microsoft", "W3Schools");
+		alert(res);
+
+		
+		
+</script>
+</head>	
