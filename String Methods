@@ -1,0 +1,26 @@
+<head>
+<title>Javascript String Methods</title>
+	
+	<script type = "text/javascript">
+		let str = "This is a String";
+		alert (str);
+		
+		let strLength = str.length;
+		alert (strLength);
+		
+		var pos = str.indexOf("a");
+		alert (pos);
+		
+		let msg = "Hello World";
+		alert (msg);
+		alert (msg.toUpperCase());
+		alert (msg.toLowerCase());
+		
+		let quote = "   Clearing up white space   ";
+		alert (quote.trim());
+		
+		let chain = "  Chaining methods here  ";
+		alert (chain.trim().toUpperCase());
+	
+</script>
+</head>	
