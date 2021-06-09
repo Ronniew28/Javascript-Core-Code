@@ -1,0 +1,20 @@
+<head>
+<title>Javascript String Template Literals</title>
+	
+	<script type = "text/javascript">
+	
+		let num = `${2 + 3}`;
+		alert (num);
+		
+		let num1 = `${3 + 4 * 2}`;
+		alert (num1);
+		
+		let a = 5;
+		let b = 10;
+		let c = 7;
+		alert(`Fifteen is ${a + b} and
+		not ${c}.`);
+		
+	
+</script>
+</head>	
