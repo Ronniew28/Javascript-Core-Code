@@ -1,0 +1,21 @@
+<head>
+<title>Javascript Random Nums/Math Object</title>
+	
+	<script type = "text/javascript">
+			let num1 = (Math.round(0.9));
+			alert (num1);
+			
+			let num2 = (Math.abs(5));
+			alert (num2);
+			
+			let num3 = (Math.floor(23.90));
+			alert (num3);
+			
+			let num4 = (Math.ceil(34.3));
+			alert (num4);
+			
+			let randomNum = (Math.random());
+			alert (randomNum);
+			
+</script>
+</head>	
