@@ -1,0 +1,30 @@
+<head>
+<title>Javascript Comparison/Equality Operators</title>
+	
+	<script type = "text/javascript">
+	
+	//Comparison Operators
+		var x = 5;
+		alert (x > 6); //false
+		alert (x < 6); //true
+		alert (x >=6); //false
+		alert (x <=6); //true
+		
+	//Equality Operators
+		var a = 1;
+		var b = 2;
+		var c = 1;
+		var d = '1';
+		alert(a==c);//true
+		alert(a==b);//false
+		alert(a==d);//true. NB: converts to same type, then compares
+
+		alert(a===c);//true. Types are the same
+		alert(a===d);//false. Types are different
+
+		alert(a!==c);//false. Types are NOT equal
+		alert(a!==d);//true. Types ARE equal.
+		
+	
+</script>
+</head>	
