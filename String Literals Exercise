@@ -1,0 +1,22 @@
+<head>
+<title>Javascript Exercise</title>
+	
+	<script type = "text/javascript">
+		const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+		const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+		
+		const roll = (die1);
+		alert ('die1: ' + roll);
+		
+		const roll2 = (die2);
+		alert ('die2: ' + roll2);
+		
+		const roll3 = (die1 + die2);
+		alert('die1 + die2 : ' + roll3);
+		
+		alert('You rolled a ' + die1 + ' & a ' + die2);
+		
+		
+	
+</script>
+</head>	
