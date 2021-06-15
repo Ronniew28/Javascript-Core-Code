@@ -1,0 +1,14 @@
+<head>
+<title>Javascript Run a Script</title>
+	
+	<script language = "javascript" type = "text/javascript">
+			function myFunction() {
+             document.write("Hello World!");
+          }
+	</script>
+	
+	<body>
+ <script>myFunction()</script>
+        </body>
+	
+</head>	
