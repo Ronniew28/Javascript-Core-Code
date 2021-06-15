@@ -1,0 +1,18 @@
+<head>
+<title>Javascript Console/Alert/Prompt</title>
+	
+	<script type = "text/javascript">
+		
+	console.log("Hello world!"); //view in the developer window
+	console.warn("DEFCON 1");
+	console.error("Beginning dump of physical memory");
+	
+	alert("Prints out info to the user only");
+	
+	let userInput = prompt("Please enter a number");
+	parseInt(userInput);
+	alert(userInput);
+</script>		
+	
+</script>
+</head>	
