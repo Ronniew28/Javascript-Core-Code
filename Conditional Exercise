@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Exercise</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "ConditionalExercise.js"></script>
+    
+</body>
+</html>
+
+//-----------------------------------------------------------------------------------------
+
+let phrase = "go";
+    if (phrase === "stop") {
+        console.log("Traffic light is red");
+    }
+        else if(phrase === "wait"){
+        console.log("Traffic light is amber");
+        }
+
+            else if(phrase === "go") {
+                console.log("Traffic light is green");
+            }
+
+                else if(phrase != "go" || phrase !="wait" || phrase !="stop") {
+                    console.log("No match found");
+                }
