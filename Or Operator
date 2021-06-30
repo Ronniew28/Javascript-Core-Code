@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Or Operator</title>
+</head>
+<body>
+    <h1>OR Operator</h1>
+    <script src = "Or.js"></script>
+    
+</body>
+</html>
+
+//--------------------------------------------------------------------------
+
+const num1 = 3;
+const num2 = 7;
+
+    if(num1 > 3 || num2 >6) {
+        console.log("One condition is true");
+    }
+
+const age = 21;
+
+    if(age > 21 || age ===30) {
+        console.log("Too old");
+    } else if (age === 18 || age < 21 ) {
+        console.log ("Too young");
+    } else if (age === 21) {
+        console.log("Correct age");
+    }
