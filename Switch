@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Statement</title>
+</head>
+<body>
+    <h1>Check the console</h1>
+    <script src = "Switch.js"></script>
+    
+</body>
+</html>
+
+//--------------------------------------------------------------------------------------------
+
+const day = 2;
+    switch (day) {
+        case 1 :
+            console.log ("Monday");
+            break;
+        case 2 :
+            console.log ("Tuesday");
+            break;
+        case 3 :
+            console.log("Wednesday");
+            break;
+        default :
+            console.log("Day not found");    
+    }
