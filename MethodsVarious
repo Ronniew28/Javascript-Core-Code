@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MethodsVarious</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "MethodsVarious.js"></script>
+    
+</body>
+</html>
+
+//-----------------------------------------------------------------------------------------------
+
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
+console.log(array3);
+
+const str1 = 'Hello';
+const str2 = 'World';
+console.log(str1.concat(' ', str2));
+
+const array4 = [1, 2, 3];
+
+console.log(array4.includes(2));
+// expected output: true
+
+const pets = ['cat', 'dog', 'bat'];
+
+console.log(pets.includes('cat'));
+// expected output: true
+
+console.log(pets.includes('at'));
+// expected output: false
+
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+const word = 'fox';
+
+console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+// expected output: "The word "fox" is in the sentence"
+
