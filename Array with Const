@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays with Const</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "ArraysWithConst.js"></script>
+    
+</body>
+</html>
+
+//----------------------------------------------------------------------------------
+
+const nums = [1, 2, 3];
+console.log(nums);
+//contents of the array have no impact on itsaddress/memory reference
+
+nums.push(4);
+nums.push(5);
+console.log(nums);
