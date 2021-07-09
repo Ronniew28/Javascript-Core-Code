@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays Nested</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src="ArraysNested.js"></script>
+    
+</body>
+</html>
+
+//-----------------------------------------------------------------------------
+
+let colours = [
+    ['red', 'blue'],
+    ['green', 'yellow'],
+    ['black', 'white']
+]
+var c1 = colours[0][1];
+var c2 = colours[2][1];
+
+
+console.log(c1);//blue
+console.log(c2);//white
+console.log(colours);
+    
+//---------------------------------------------------
+
+const newItem = [
+    ['item 1', 'item 0', 'item 1'],
+    ['item 2', 'item 3', 'item 1']
+  ];
+  for(let i=0; i<newItem.length; i++){
+      for(let j=0; j<newItem[i].length; j++){
+    console.log(newItem[i][j]);
+        if (newItem[i][j] === 'item 1') newItem[i].splice(j, 1);
+    }
+  }
+  console.log(newItem);
