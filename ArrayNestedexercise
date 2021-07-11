@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Arrays Exercise</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "ArraysNestedExercise.js"></script>
+    
+</body>
+</html>
+
+/-------------------------------------------------------------------------------------
+
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', 'Tom', 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+];
+
+for(let i=0; i<airplaneSeats.length; i++){
+    for(let j=0; j<airplaneSeats[i].length; j++){
+  console.log(airplaneSeats[i][j]);
+      if (airplaneSeats[i][j] === 'item 1') airplaneSeats[i].splice(j, 1);
+  }
+}
+console.log(airplaneSeats );
+console.log(airplaneSeats[3][1]);
