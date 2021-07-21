@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifying Objects</title>
+</head>
+<body>
+    <h1>Check the console</h1>
+    <script src = "Modifying Objects.js"></script>
+    
+</body>
+</html>
+//--------------------------------------------------------------------------------------------
+
+const midterms = {Dani: 98, Tom: 75};
+console.log(midterms);
+
+midterms.Tom = 79;
+console.log(midterms);
+//Toms score has been updated
+
+midterms.Dani = 'A+';
+midterms.Tom = 'B';
+console.log(midterms);
+
+midterms.Mike = 'F';
+console.log(midterms);
+
+midterms['Jess'] = 'C';
+console.log(midterms);
+//Note the use of [] which is also valid
