@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesting Arrays & Objects</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "Nesting Arrays & Objects.js"></script>
+    
+</body>
+</html>
+//----------------------------------------------------------------------------------
+
+const comments = [ //NB!!!: use []
+    {username: 'Tammy', 
+    remark: 'hello',
+    votes: 7} ,
+
+    {username: 'Tom' ,
+    remark: 'hi',
+    votes: 9},
+
+    {username: 'Dick' ,
+    remark: 'welcome' ,
+    votes: 5}
+]
+    console.log(comments);
+    console.log(comments[1]); //outputs the 'Tom' array contents
+    console.log(comments[1].remark); //ouput 'hi
+    
