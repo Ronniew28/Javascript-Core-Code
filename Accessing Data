@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing Data</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "Accessing Data.js"></script>
+    
+</body>
+</html>
+//---------------------------------------------------------------------------------
+
+const id = {firstName: "Tom", lastName: "Jones"}
+console.log(id);
+console.log(id.firstName);
+console.log(id.lastName);
+//--------------------------------------------------
+const year = {1999: 'Good', 2020: 'Bad'};
+console.log(year);
+//NB: Every key is turned into a string by JS
