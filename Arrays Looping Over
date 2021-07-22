@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Check the Console</h1>
+    <script src = "Loop Over Array.js"></script>
+    
+</body>
+</html>
+//----------------------------------------------------------------------------------
+
+const animals = [ 'Horse' , 'Dog' , 'Cat']; //note the use of []
+    for (let i = 0; i < animals.length; i++) {
+        console.log(i, animals[i]);
+    }
+
+    for (let i = animals.length-1; i >= 0; i--) {
+        console.log(i, animals[i]);
+    }
+    //------------------------------------------------------------
+
+    const names = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+    
+    let convertedNames = [];
+    for (let i = 0; i < names.length; i++) {
+    convertedNames[i] = names[i].toUpperCase();
+}
+ 
+    console.log(convertedNames);
+
+    //------------------------------------------------------------
