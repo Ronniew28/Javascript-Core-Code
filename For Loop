@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript For Loops</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "For Loops.js"></script>
+    
+</body>
+</html>
+
+//---------------------------------------------------------------------------------------
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i); //outputs the loop contents
+}
+//-----------------------------------------------
+for (let z = 1; z <= 6; z++) {
+    console.log("Da ba dee da ba daa");
+}
+//-----------------------------------------------
+
+//output even numbers
+for (let a = 0; a <= 20; a+=2) {
+    console.log(a);
+}
+//----------------------------------------------
+
+//output odd numbers
+for (let b = 1; b <= 20; b+=2) {
+    console.log(b);
+}
+//---------------------------------------------
+
+//countdown from 100
+for (let c = 100; c >= 0; c-=10) { //NB: c must be >=0 as we're counting down
+    console.log(c);
+}
+//--------------------------------------------
+
+//countdown practise with a loop
+for (let d = 50; d >= 0; d -=5) {
+    console.log(d);
+}
+//-----------------------------------------------
