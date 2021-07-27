@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Of Loop</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "For of Loop.js"></script>
+    
+</body>
+</html>
+//------------------------------------------------------------------------------
+const names = ['Tom', 'Dick', 'Harry', 'Mike', 'Jack'];
+
+for (let firstNames of names) {
+    console.log(firstNames);
+}
+
+for (let char of "hello world") {
+    console.log(char);
+}
