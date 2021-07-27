@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iterate over Objects</title>
+</head>
+<body>
+   <h1>Check the Console</h1> 
+   <script src = "Iterate over Objects.js"></script>
+</body>
+</html>
+//--------------------------------------------------------------------------------
+const exampleObj = {
+    Tom: 80,
+    Mike: 65,
+    Andy: 47,
+    Jack: 55,
+    Ian: 10,
+    Colin: 99
+}
+
+for (let key in exampleObj) {
+    if (exampleObj.hasOwnProperty(key)) {
+        value = exampleObj[key];
+        console.log(key, value);
+    }
+}
