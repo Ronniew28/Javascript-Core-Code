@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions with Arguments</title>
+</head>
+<body>
+    <script src = "FunctionsArguments.js"></script>
+    
+</body>
+</html>
+//-------------------------------------------------------------------------------
+
+//Arguments are inputs to a function
+
+function greet (firstName) { //firstName is the parameter
+    console.log(`firstName: ${firstName}`);
+}
+greet('Tom'); //whats passed to the function is the argument
+//-----------------------------------------------
+
+function hi (name) {
+    console.log(`Hi there ${name}`);
+}
+hi('Dude');
+//------------------------------------------------
+
+function fab (title) {
+    console.log(`${title} is fab`);
+}
+fab(`Jessica`);
+//-------------------------------------------------
+
+//If no arument is passed to the function, it will return undefined
