@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Last Element</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "Function Last Element.js"></script>
+    
+</body>
+</html>
+//-------------------------------------------------------------------------
+
+function  lastElement() {
+    return [1, 2, 3];
+}
+let [num1, num2] = lastElement();
+
+console.log(num1);
+console.log(num2);
+//Array contents in the function are output
+//NB:This is array destructuring
+//--------------------------------------------------------------
+var last =  function(array, n) {
+    if (array == null) 
+      return void 0;
+    if (n == null) 
+       return array[array.length - 1];
+    return array.slice(Math.max(array.length - n, 0));  
+    };
+    console.log(last([7, 9, 0, -2]));
+//-----------------------------------------------------------------
+
