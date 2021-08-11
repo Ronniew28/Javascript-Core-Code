@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekday</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "ReturnDay.js"></script>
+    
+</body>
+</html>
+//-----------------------------------------------------------------------------------
+function title () {
+  var weekday = new Array(7);
+  weekday[0] = "Sunday";
+  weekday[1] = "Monday";
+  weekday[2] = "Tuesday";
+  weekday[3] = "Wednesday";
+  weekday[4] = "Thursday";
+  weekday[5] = "Friday";
+  weekday[6] = "Saturday";
+  //return weekday[5] //returns Friday regardless of number entered
+  //return title()// recognises the array contents in the function
+  //console.log(weekday[3]);//returns Wednesday
+
+  return weekday[1];
+    }
+  var tests = title();
+  console.log(tests);
+
