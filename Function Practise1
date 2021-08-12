@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Practise</title>
+</head>
+<body>
+    <h1>Check in Console</h1>
+    <script src = "FunctionPractise1.js"></script>
+    
+</body>
+</html>
+//--------------------------------------------------------------------------
+
+function greeting() {
+    console.log("Hello World");
+}
+greeting();
+//------------------------------------
+function phrase() {
+    console.log("Coding Rules!");
+}
+phrase();
+//------------------------------------
+function sample() {
+    console.log("Some text here");
+}
+sample();
+//-------------------------------------
+
+//-------------------------------------
+function more (name) {
+    console.log(`I say ${name} is fast`);
+}
+more('Tom');
+//--------------------------------------
+function start (name1) {
+    console.log(`${name1} is fast`);
+}
+start(`Dick`);
+//----------------------------------------
+
+//----------------------------------------
+
+function words(word1, word2, word3) {
+    console.log(`First word is : ${word1}`);
+    console.log(`Second word is : ${word2}`);
+    console.log(`Third word is : ${word3}`);
+}
+words("Hello", "Coding", "World");
+//---------------------------------------
+
+function group(pet1, pet2, pet3) {
+    console.log(`The pets are: ${pet1}, ${pet2}, ${pet3}`);
+}
+group("Dog", "Cat", "Horse");
+//----------------------------------------
