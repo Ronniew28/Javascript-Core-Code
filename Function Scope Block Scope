@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Scope</title>
+</head>
+<body>
+    <h1>Check the Console</h1>
+    <script src = "Function Scope.js"></script>
+    
+</body>
+</html>
+//----------------------------------------------------------------------------
+let totalEggs = 777;
+function collectEggs() {
+    let totalEggs = 7; //this variable is scoped to the "collect Eggs function"
+    console.log(totalEggs)
+}
+console.log(totalEggs); //output 777
+//-------------------------------------------------------------------------------
+
+let radius = 8;
+    if (radius > 0) {
+        const pi = 3.142;
+        let msg = "Thats Pi!!";
+    }
+    console.log(radius); //output 8
+        //console.log(pi) //wouldn't work as pi is not defined
+        //console.log(msg) // would work as scoped to the conditional block
+        
