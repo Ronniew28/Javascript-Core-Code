@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"This" Keyword</title>
+</head>
+<body>
+    <h3>Remember to link to the JS File!</h3>
+    <script src = "This.js"></script>
+    
+</body>
+</html>
+//------------------------------------------------------------------------------
+const cat = {
+    name: 'Tiddles',
+    color: 'Tabby',
+    breed: 'Mixed',
+    //add a method
+    meow() {
+        //console.log("Purr Purr"); //standard output
+        console.log(this.color);
+        console.log(`${this.name} purrs`);
+    }
+}
+//---------------------------------------------------------
+const dog = {
+    name: 'Fido',
+    color: 'Black & White',
+    breed: 'Sheepdog',
+    woof() {
+        console.log(this.name);
+        console.log(`${this.breed}`);
+    }
+}
