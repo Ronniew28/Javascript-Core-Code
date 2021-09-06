@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Exercise</title>
+</head>
+<body>
+    <h3>Remember to link to JS File</h3>
+    <script src = "Map Exercise.js"></script>
+    
+</body>
+</html>
+//----------------------------------------------------------------------
+const movies = [
+    {
+        title: 'Star Wars',
+        rating: 100
+    },
+    {
+        title: 'Hitman',
+        rating: 99
+    },
+    {
+        title: 'Alien',
+        rating: 98
+    }
+]
+
+const titles = movies.map(function(movie){
+    return movie.title; //returns the titles only
+})
