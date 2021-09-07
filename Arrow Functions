@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions Intro</title>
+</head>
+<body>
+    <h3>Remember to link to the JS File</h3>
+    <script src = "Arrow Functions Intro.js"></script>
+</body>
+</html>
+//-----------------------------------------------------------------------------------
+const add = (x, y) => {
+    return x + y; // use add to call the function
+}
+
+const square = (a) => {
+    return a * a;
+}
+
+const rollDice = () => {
+    return Math.floor(Math.random() * 6) + 1
+}
