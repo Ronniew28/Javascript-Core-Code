@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function Implicit Returns </title>
+</head>
+<body>
+    <h3>Remember to link to the JS file</h3>
+    <script src = "Arrow Functions Implicit Returns.js"></script>
+    
+</body>
+</html>
+//-------------------------------------------------------------------------------
+const rollDice = () => {
+    return Math.floor(Math.random() * 6) + 1
+}
+
+//Implicit return
+const rollDice1 = () => {
+    return Math.floor(Math.random() * 6) + 1
+    //return can be removed to make the statement implicit
+}
+
+const add = (a, b) => a + b;
+
+//Will only work with ONE expression in the function
