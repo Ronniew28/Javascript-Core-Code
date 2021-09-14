@@ -1,2 +1,2 @@
-# Javascript-Core-Code
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+This repo contains examples of simple working Javascript code covering basic JS elements.
+Useful for those new to the language.
