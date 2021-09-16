@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread with Array Literals</title>
+</head>
+<body>
+    <script src = "Spread with Array Literals.js"></script>
+    
+</body>
+</html>
+//-----------------------------------------------------------------------
+const names = ['Tom', 'Dick', 'Harry'];
+const food = ['Pizza', 'Steak'];
+
+const both = [...names]
+const bothOne = [...names, ...food]
