@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring Objects</title>
+</head>
+<body>
+    <script src = "Destructuring Objects.js"></script>
+</body>
+</html>
+//-------------------------------------------------------------------------------
+
+const user = {
+    firstName: 'Tom',
+    lastName: 'Jones',
+    born: 1937,
+    address: ' 27 main St',
+    city: 'Cardiff',
+    Country: 'Wales'
+}
+
+const {lastName, firstName, city} = user;
+
+const {born: birthYear} = user;
