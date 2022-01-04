@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Linking</title>
+</head>
+<body>
+        <script src = "FileLinking.js"></script>
+</body>
+</html>
+//---------------------------------------------
+
+console.log(2+2+2+2+2);
+//------------------------
+let js = "Amazing";
+        if (js === "Amazing") alert("Javascript is fun");
+
+        //Check the numbers below in the console
+        5+8+7+9; //This wouldn't be displayed as its not explicitly called
+        console.log(5+8+7+9);
