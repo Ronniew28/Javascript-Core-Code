@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Values & Variables</title>
+</head>
+<body>
+   <script src = "ValuesVariables.js" ></script>
+</body>
+</html>
+
+//-------------------------------
+
+console.log("This is a value");
+console.log(77); //This is a value
+
+//Assign a value to a variable
+let firstName = "Tom";
+console.log(firstName);
+
+let tom_murphy = "tm";
+console.log(tom_murphy)
+
+let num1 = 75;
+console.log(num1);
