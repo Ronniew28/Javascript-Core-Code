@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Data Types</title>
+</head>
+<body>
+    <script src = "JSDataTypes.js"></script>
+    
+</body>
+</html>
+
+
+//PRIMITIVE DATA TYPES
+
+//number
+let age = 77;
+
+//string
+let name = "Tom";
+
+//boolean
+let answer = "True";
+let wrong = "False";
+
+//undefined
+let unknown;
+console.log(unknown);
+console.log(typeof unknown);
+    //assign a value to the undefined variable
+    unknown = "value assigned";
+    console.log(unknown);
+    console.log(typeof unknown);
+
+//type of
+let show = "true";
+console.log(typeof true);
+console.log(typeof 23);
+console.log(typeof "hello world");
+console.log(typeof answer); //using a variable name from above
+
+//An example of dynamic typing
+show = "new Value"; //NB: let does not need to written again
+console.log(show);
+
+//interesting bug
+console.log(typeof null); //returned in the console as an object
