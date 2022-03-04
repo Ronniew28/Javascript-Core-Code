@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let - Const - Var</title>
+</head>
+<body>
+    <script src = "LetConstVar.js"></script>
+    
+</body>
+</html>
+
+
+//let keyword used to declare variables that will change later
+let age = 30;
+console.log(age);
+age = 31;
+console.log(age);
+
+//const keyword used to declare variables where the value wouldn't change
+//const must always have an initial value
+const number = 777;
+number = 778; //this will generate a type error
+console.log(number);
+
+//var is a legacy keyword
+var text = "hello world";
+console.log(text);
+text = "hello coders";
+console.log(text);
