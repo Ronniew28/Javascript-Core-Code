@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Operators</title>
+</head>
+<body>
+    <script src = "Basic Operators.js"></script>
+    
+</body>
+</html>
+
+//Math Operators
+const ageMan = 2037 - 1991;
+console.log(ageMan);
+
+const now = 2022;
+const ageGuy = now - 2002;
+const ageGirl = now - 2004;
+console.log(ageGuy, ageGirl);
+
+console.log(ageGuy * 2);
+console.log (ageGirl / 5);
+
+const firstName = "Tom";
+const lastName = "Jones";
+console.log(firstName + lastName);
+console.log(firstName + ' ' + lastName);
+
+//Assignment Operators
+let x = 10 + 5; // x = 15
+console.log(x); 
+
+x += 10; // x = x + 10
+console.log(x); //25
+
+x *= 2;
+console.log(x); //50
+
+x++; // x = x+1
+console.log(x); //x = 51
+
+x--; //x = x-1
+console.log(x);
+
+//Comparison Operators
+console.log(ageGuy > ageGirl);
+console.log(ageGuy < ageGirl);
+console.log(ageGuy >= ageGirl);
+console.log(ageGuy <= ageGirl);
